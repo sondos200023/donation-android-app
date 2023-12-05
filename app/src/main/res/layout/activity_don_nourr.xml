@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AboutUs">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ViewFlipper
+            android:id="@+id/ViewPage1"
+            android:layout_width="420dp"
+            android:layout_height="300dp"
+            android:flipInterval="2000"
+            android:autoStart="true"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            >
+            <ImageView
+                android:layout_width="420dp"
+                android:layout_height="300dp"
+                android:src="@drawable/hungry"/>
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="300dp"
+                android:src="@drawable/girl"/>
+
+            <ImageView
+                android:layout_width="420dp"
+                android:layout_height="300dp"
+                android:src="@drawable/people"/>
+
+
+        </ViewFlipper>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NOTRE MISSION"
+            android:textColor="#D2236781"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15px"
+            android:text="Quand ils eurent tous eu assez à manger, Jésus dit à ses disciples : « Rassemblez les morceaux qui restent. Que rien ne soit gaspillé . Jean 6:12 (NIV)"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NOTRE VISION"
+            android:textColor="#D2236781"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15px"
+            android:text="Élargir notre réseau reliant les sources disponibles de  surplus de nourriture  à ceux qui en ont besoin par le biais d'organisations caritatives existantes.
+• Développer notre entreprise d'une manière qui offre un niveau de rentabilité nécessaire pour réaliser notre vision."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+
+        <ViewFlipper
+            android:id="@+id/ViewPage"
+            android:layout_width="420dp"
+            android:layout_height="300dp"
+            android:autoStart="true"
+            android:flipInterval="2000"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="190dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginBottom="3dp"
+                    android:text="Notre activités "
+                    android:textColor="#000000"
+                    android:textSize="20sp"></TextView>
+
+                <ImageView
+                    android:id="@+id/act"
+                    android:layout_width="450dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/food" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="190dp">
+            <ImageView
+                android:id="@+id/don"
+                android:layout_width="450dp"
+                android:layout_height="150dp"
+                android:src="@drawable/hunger" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginBottom="3dp"
+                    android:text="faire un don    "
+                    android:textColor="#000000"
+                    android:textSize="20sp"></TextView>
+        </RelativeLayout>
+    </ViewFlipper>
+
+    </LinearLayout>
+
+</ScrollView>

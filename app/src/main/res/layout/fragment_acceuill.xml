@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fragment_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acceuill"
+  >
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:rowCount="4"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardDonate"
+                android:clickable="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/purple"
+                app:strokeWidth="5dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/donat"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faire un don"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardProfile"
+                android:clickable="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/purple"
+                app:strokeWidth="5dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/prof"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardhelp"
+                android:clickable="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/purple"
+                app:strokeWidth="5dp"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/help"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aide"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardacc"
+                android:clickable="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/purple"
+                app:strokeWidth="5dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/acce"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acceuil"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAboutus"
+                android:clickable="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/purple"
+                app:strokeWidth="5dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/aboutus"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A propos nous"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardLogout"
+                android:clickable="true"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/purple"
+                app:strokeWidth="5dp"
+                android:layout_margin="10dp"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/dcnx"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Déconnexion"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+
+            </com.google.android.material.card.MaterialCardView>
+        </GridLayout>
+</FrameLayout>

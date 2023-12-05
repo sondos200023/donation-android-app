@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AboutUs">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ViewFlipper
+            android:id="@+id/ViewPage1"
+            android:layout_width="420dp"
+            android:layout_height="300dp"
+            android:flipInterval="2000"
+            android:autoStart="true"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            >
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="300dp"
+                android:src="@drawable/scolaire"/>
+            <ImageView
+                android:layout_width="420dp"
+                android:layout_height="300dp"
+                android:src="@drawable/age" />
+
+            <ImageView
+                android:layout_width="420dp"
+                android:layout_height="300dp"
+                android:src="@drawable/ecole"/>
+
+
+        </ViewFlipper>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Accompagnement"
+            android:textColor="#D2236781"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15px"
+            android:text=""
+            android:textColor="#000000"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="190dp">
+            <ImageView
+                android:id="@+id/don"
+                android:layout_width="450dp"
+                android:layout_height="150dp"
+                android:src="@drawable/accmp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#000000"
+                android:textSize="20sp"></TextView>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Soutien scolairet"
+            android:textColor="#D2236781"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="190dp">
+            <ImageView
+                android:id="@+id/don1"
+                android:layout_width="450dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sout" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#000000"
+                android:textSize="20sp"></TextView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

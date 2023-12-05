@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AboutUs">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="500dp"
+            android:layout_height="247dp"
+            android:src="@drawable/acceuil" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Lancez les collectes de dons en ligne"
+            android:textColor="#D2236781"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15px"
+            android:text="Le don est souvent considéré comme un acte de générosité et de bienveillance envers les autres. Les personnes qui donnent peuvent éprouver un sentiment de satisfaction et de gratification personnelle en sachant qu'elles ont aidé les autres."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Les dons peuvent être faits à des organisations caritatives, à des associations, à des églises ou directement à des personnes dans le besoin. Les dons peuvent être déductibles d'impôt dans certains cas, selon les lois fiscales locales."
+            android:textColor="#000000"
+            android:layout_marginTop="30px"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/shelter"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/shelter"/>
+            <ImageView
+                android:id="@+id/edu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/education"/>
+            <ImageView
+                android:id="@+id/health"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/health"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ABRI                                                    "
+                android:textColor="#000000"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ÉDUCATION            "
+                android:textColor="#000000"
+                android:textSize="10sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        SANTÉ       "
+                android:textColor="#000000"
+                android:textSize="10sp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/child"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/child"/>
+            <ImageView
+                android:id="@+id/wash"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/wash"/>
+            <ImageView
+                android:id="@+id/food"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/food1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PROTECTION DE L'ENFANCE               "
+                android:textColor="#000000"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EAU PROPRE            "
+                android:textColor="#000000"
+                android:textSize="10sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="  LA SÉCURITÉ ALIMENTAIRE       "
+                android:textColor="#000000"
+                android:textSize="10sp"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

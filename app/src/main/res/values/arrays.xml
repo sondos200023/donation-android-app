@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="availability_options">
+            <item>Matin</item>
+            <item>Après-midi</item>
+            <item>Soir</item>
+        </string-array>
+    <string-array name="matiere_options">
+        <item>Math</item>
+        <item>Physique</item>
+        <item>Gestion</item>
+        <item>Anglais</item>
+        <item>Français</item>
+        <item>Science</item>
+
+        <!-- Ajoutez d'autres matières ici -->
+    </string-array>
+    <string-array name="niveau_options">
+        <item>1ére année</item>
+        <item>2éme année</item>
+        <item>3éme année</item>
+        <item>Baccalauriat</item>
+
+        <!-- Ajoutez d'autres niveaux ici -->
+    </string-array>
+    </resources>
+
